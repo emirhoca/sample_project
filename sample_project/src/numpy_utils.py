@@ -15,6 +15,7 @@ def calculate_with_numpy(data):
     if not HAS_NUMPY:
         raise ImportError("numpy not installed")
     arr = numpy.array(data)
+    x=0
     return {
         "mean": float(numpy.mean(arr)),
         "sum": float(numpy.sum(arr)),
