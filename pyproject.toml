@@ -79,5 +79,4 @@ exclude = '''
 [project.entry-points.pytest11]
 pytest-ezmon-nocov = "ezmon.pytest_ezmon"
 
-[tool.uv]
-package = false
+
