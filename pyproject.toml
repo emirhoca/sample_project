@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pytest-ezmon-nocov"
-dynamic = ["version"]
+version = "0.1.0"
 description = "Selects tests affected by changed files using import-based tracking and Roaring bitmaps (no coverage.py)"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -50,5 +50,5 @@ pytest-ezmon-nocov = "ezmon.pytest_ezmon"
 where = ["."]
 include = ["ezmon*"]
 
-[tool.setuptools.dynamic]
-version = { attr = "ezmon.__init__.TESTMON_VERSION" }
+[tool.uv]
+package = false
