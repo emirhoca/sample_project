@@ -7,6 +7,7 @@ class Product:
     def __init__(self, name: str, price: float):
         self.name = name
         self.price = price
+        x=0
 
     def get_formatted_price(self) -> str:
         """Return price formatted as currency."""

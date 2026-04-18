@@ -7,6 +7,7 @@ class User:
     def __init__(self, name: str, email: str):
         self.name = name
         self.email = email
+        x=0
 
     def get_display_name(self) -> str:
         """Return the display name for this user."""
