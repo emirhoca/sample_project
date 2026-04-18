@@ -15,7 +15,7 @@ APP_VERSION = "1.0.0"
 DEBUG_MODE = False
 
 # Processing limits
-MAX_ITEMS = 150
+MAX_ITEMS = 100
 MIN_ITEMS = 1
 DEFAULT_BATCH_SIZE = 10
 
