@@ -26,7 +26,8 @@ def compute_constant():
         COMPUTED_VALUE = compute_constant()
     at module level, then all tests in that file depend on this function.
     """
-    return 42
+    value = 42
+    return value
 
 
 def compute_another():
