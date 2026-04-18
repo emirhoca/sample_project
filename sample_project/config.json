@@ -1,7 +1,7 @@
 {
     "setting": "production",
     "value": 42,
-    "threshold": 50,
+    "threshold": 51,
     "features": {
         "dark_mode": true,
         "notifications": false,
